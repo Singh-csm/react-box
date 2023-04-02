@@ -79,18 +79,35 @@
   background-color: #1453d1;
   border: solid red;
   box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
-  border-width: 1px;
+  border-width: 3px;
+
   border-radius: 10px;
+
+
+}
+.headerrr::hover{
+  background-color: rgb(24, 219, 154);
 }
 
+.hover-effect {
+  color: rgb(25, 26, 21);
 
+  background-color: rgb(24, 219, 154);
+  border-color: rgb(21, 26, 24);
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5;
+  
+ 
+  font-weight: bold;
 
+  text-decoration: none;
+
+}
 
 .postkabox-1{
   border: rgb(95, 3, 3) rgb(231, 13, 13);
   border-radius: 10px;
   box-shadow: rgba(0, 0, 0, 0.6) 11px 30px 90px;
-
+  
   margin: 60px;
   padding: 20px;
   display: inline-block;
@@ -119,4 +136,42 @@
   height: 200px;
   height: 200px;
   background-color: #f70000;
+}
+
+
+
+
+
+.postkabox {
+  background-color: rgb(204, 21, 21);
+
+  border: 1px solid black;
+
+ 
+  border-radius: 150px;
+
+  padding: 20px;
+  transition: background-color 0.1s ease;
+
+}
+
+.postkabox:hover {
+  background-color: rgb(24, 219, 154);
+}
+
+
+
+.textme{
+  font-size: 40px;
+  font-weight: bold;
+  text-align: inherit;
+  color: rgb(56, 34, 34);
+ 
+  font-weight: 800;
+  margin: 0.5%;
+
+
+
+  font-family: 'Roboto', 'Gill Sans', Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
 }
